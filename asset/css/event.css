@@ -21,6 +21,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 header .logo {
   position: relative;
@@ -45,7 +50,7 @@ header .navigation a:not(:last-child) {
   margin-right: 20px;
 }
 header .navigation a:hover {
-  background: #226a80;
+  background: #c8e4ed;
 }
 
 body {
@@ -91,8 +96,9 @@ body {
   height: auto;
 }
 .blog-img img {
-  width: 100%;
-  height: 100%;
+  margin-left: 20%;
+  width: 60%;
+  height: 70%;
   object-fit: cover;
   object-position: center;
 }
@@ -254,4 +260,30 @@ label {
   #blog {
     padding: 20px;
   }
+}
+
+.event1,
+.event2,
+.event3,
+.event4,
+.event5,
+.event6 {
+  -webkit-transition: all 0.3s ease; /* Safari and Chrome */
+  -moz-transition: all 0.3s ease; /* Firefox */
+  -ms-transition: all 0.3s ease; /* IE 9 */
+  -o-transition: all 0.3s ease; /* Opera */
+  transition: all 0.3s ease;
+}
+
+.event1:hover,
+.event2:hover,
+.event3:hover,
+.event4:hover,
+.event5:hover,
+.event6:hover {
+  -webkit-transform: scale(1.25); /* Safari and Chrome */
+  -moz-transform: scale(1.25); /* Firefox */
+  -ms-transform: scale(1.25); /* IE 9 */
+  -o-transform: scale(1.25); /* Opera */
+  transform: scale(1.25);
 }

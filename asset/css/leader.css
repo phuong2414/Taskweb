@@ -8,14 +8,17 @@
 }
 
 header {
-  position: relative;
-  top: 0;
   width: 100%;
   padding: 30px 100px;
   /* margin-left: 236px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 header .logo {
   position: relative;
@@ -40,7 +43,7 @@ header .navigation a:not(:last-child) {
   margin-right: 20px;
 }
 header .navigation a:hover {
-  background: #226a80;
+  background: #c8e4ed;
 }
 
 /* body {
@@ -62,6 +65,18 @@ body {
   align-items: center;
   flex-direction: column;
 }
+.heading-text {
+  width: 100px;
+  height: 50px;
+  background: #89ceee;
+  -webkit-transition: width 3s, height 4s; /* Safari */
+  -webkit-transition-delay: 1s; /* Safari */
+  transition: width 1s, height 2s;
+  transition-delay: 1s;
+}
+.heading-text {
+  width: 300px;
+}
 
 .heading h3 {
   font-size: 2.4rem;
@@ -82,6 +97,7 @@ body {
 }
 
 .card {
+  border: 1px solid #226a80;
   border-radius: 25px;
   background-color: #fff;
 }

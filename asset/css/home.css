@@ -15,6 +15,8 @@ section {
   justify-content: flex-start;
   background: url(https://scontent.fsgn2-2.fna.fbcdn.net/v/t39.30808-6/312494022_210096354693397_4747201725970366496_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=mmYKxnAIN4gAX_Xsfcd&_nc_ht=scontent.fsgn2-2.fna&oh=00_AfCcHaaeQgVTZegnPFv7MypIzFzNX5E6fXL0at94lu7x1A&oe=637AF9E1)
     no-repeat;
+  backdrop-filter: blur(5px);
+
   background-size: cover;
   background-position: center;
 }
@@ -26,6 +28,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 header .logo {
   position: relative;
@@ -50,7 +57,7 @@ header .navigation a:not(:last-child) {
   margin-right: 20px;
 }
 header .navigation a:hover {
-  background: #226a80;
+  background: #c8e4ed;
 }
 .content {
   max-width: 650px;

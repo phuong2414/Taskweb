@@ -15,6 +15,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 header .logo {
   position: relative;
@@ -39,7 +44,7 @@ header .navigation a:not(:last-child) {
   margin-right: 20px;
 }
 header .navigation a:hover {
-  background: #226a80;
+  background: #c8e4ed;
 }
 
 label {
