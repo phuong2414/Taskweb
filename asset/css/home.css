@@ -13,7 +13,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background: url(https://scontent.fsgn2-2.fna.fbcdn.net/v/t39.30808-6/312494022_210096354693397_4747201725970366496_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=raCJx7RzjpIAX-PxFqT&_nc_ht=scontent.fsgn2-2.fna&oh=00_AfA6eAiieyZmOJi1P3TYsWkCvYj2j_CozXYDxFHmaeCM3Q&oe=638CC621)
+  background: url("https://scontent.fsgn5-12.fna.fbcdn.net/v/t39.30808-6/312494022_210096354693397_4747201725970366496_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=raCJx7RzjpIAX8HUzL-&_nc_ht=scontent.fsgn5-12.fna&oh=00_AfA18FU6UQ9l8mO6DPPMpX2jmron57ejlgE4PinWY7ytvA&oe=638EC061")
     no-repeat;
   backdrop-filter: blur(5px);
 
